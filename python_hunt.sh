@@ -24,3 +24,12 @@ egrep --color \
 	-e " bastion" \
 	* -R
 
+
+
+#SmartCookie  uses pickle
+#SerialCookie uses pickle
+#shelve uses pickle
+#multiprocessing some methods use pickle
+
+#tarfile file creation outside of path, via extractall and extract
+#zipfile file creation outside of path, via extractall
