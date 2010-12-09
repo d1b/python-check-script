@@ -7,9 +7,11 @@ egrep --color \
 	-e "shell" \
 	-e "subprocess" \
 	-e "popen" \
-	-e "input" \
+	-e " input" \
 	-e "os.popen" \
-	-e  "Cookie" \
+	-e "os.exec" \
+	-e "os.spawn" \
+	-e "Cookie" \
 	-e "SmartCookie" \
 	-e "SerialCookie" \
 	-e "pipes" \
@@ -22,8 +24,8 @@ egrep --color \
 	-e "zipfile" \
 	-e "rexec" \
 	-e " bastion" \
+	-e "exec " \
 	* -R
-
 
 
 #SmartCookie  uses pickle
