@@ -25,6 +25,7 @@ egrep --color \
 	-e "rexec" \
 	-e " bastion" \
 	-e "exec " \
+	-e " commands" \
 	* -R
 
 
