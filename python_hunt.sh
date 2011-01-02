@@ -16,9 +16,9 @@ egrep --color \
 	-e "SerialCookie" \
 	-e "pipes" \
 	-e "shelve" \
-	-e " ast" \
 	-e "multiprocessing" \
 	-e "tarfile" \
+	-e " ast" \
 	-e " parser" \
 	-e " compiler" \
 	-e "zipfile" \
@@ -36,3 +36,6 @@ egrep --color \
 
 #tarfile file creation outside of path, via extractall and extract
 #zipfile file creation outside of path, via extractall
+
+#ast, parser and compiler could potentially be used to hide 'bad' code.
+
