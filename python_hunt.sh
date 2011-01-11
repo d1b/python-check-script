@@ -16,9 +16,9 @@ egrep --color \
 	-e "SerialCookie" \
 	-e "pipes" \
 	-e "shelve" \
-	-e " ast" \
 	-e "multiprocessing" \
 	-e "tarfile" \
+	-e " ast" \
 	-e " parser" \
 	-e " compiler" \
 	-e "zipfile" \
@@ -41,3 +41,6 @@ egrep --color \
 
 #yaml because yaml.load is said to be as bad as pickle.load.
 #However, yaml.safe_load is said to be safe.
+
+#ast, parser and compiler could potentially be used to hide 'bad' code.
+
