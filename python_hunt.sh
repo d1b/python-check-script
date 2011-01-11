@@ -26,6 +26,8 @@ egrep --color \
 	-e " bastion" \
 	-e "exec " \
 	-e " commands" \
+	-e "yaml.load(" \
+	-e "yaml" \
 	* -R
 
 
@@ -36,3 +38,6 @@ egrep --color \
 
 #tarfile file creation outside of path, via extractall and extract
 #zipfile file creation outside of path, via extractall
+
+#yaml because yaml.load is said to be as bad as pickle.load.
+#However, yaml.safe_load is said to be safe.
