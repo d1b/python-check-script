@@ -28,6 +28,7 @@ egrep --color \
 	-e " commands" \
 	-e "yaml.load(" \
 	-e "yaml" \
+	-e "eval" \
 	* -R
 
 
