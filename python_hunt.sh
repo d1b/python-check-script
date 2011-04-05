@@ -30,6 +30,7 @@ egrep --color \
 	-e "yaml" \
 	-e "eval" \
 	-e "marshal" \
+	-e "mktemp" \
 	* -R
 
 
@@ -46,3 +47,4 @@ egrep --color \
 
 #ast, parser and compiler could potentially be used to hide 'bad' code.
 
+#mktemp can be unsafe to use for temporary file creation.
