@@ -26,6 +26,7 @@ egrep --color \
 	-e " bastion" \
 	-e "exec " \
 	-e " commands" \
+	-e " pty" \
 	-e "yaml.load\(" \
 	-e "yaml" \
 	-e "eval" \
